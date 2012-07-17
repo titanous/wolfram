@@ -1,4 +1,4 @@
-var xml = require('o3-xml'),
+var xml = require('libxml'),
     request = require('request')
 
 var Client = exports.Client = function Client(appKey) {
